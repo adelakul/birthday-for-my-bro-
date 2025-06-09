@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Big Dan!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Lora', serif;
+      text-align: center;
+      padding: 8vw;
+      color: #4A2C2A;
+      margin: 0;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 25px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      max-width: 90vw;
+      margin: auto;
+      padding: 6vw;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      background: linear-gradient(to right, #e91e63, #ff5722);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      animation: bounce 1.5s ease-in-out infinite alternate;
+      margin-bottom: 20px;
+    }
+
+    .emojis {
+      font-size: 1.8em;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+      opacity: 0;
+      animation: fadeInUp 1.2s ease-out forwards;
+      margin: 15px 0;
+    }
+
+    p:nth-of-type(1) { animation-delay: 0.5s; }
+    p:nth-of-type(2) { animation-delay: 1.0s; }
+    p:nth-of-type(3) { animation-delay: 1.5s; }
+    p:nth-of-type(4) { animation-delay: 2.0s; }
+    p:nth-of-type(5) { animation-delay: 2.5s; }
+    p:nth-of-type(6) { animation-delay: 3.0s; }
+    p:nth-of-type(7) { animation-delay: 3.5s; }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #c2185b;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1.2s ease-out forwards;
+      animation-delay: 4s;
+      opacity: 0;
+    }
+
+    img {
+      width: 40vw;
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin: 25px 0;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-8px); }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2em; }
+      p { font-size: 1.1em; }
+      .emojis { font-size: 1.3em; }
+      .footer { font-size: 1.2em; }
+      .card { padding: 8vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Big Dan Happy Birthday <span class="emojis">🎂🎂</span></h1>
+    <img src="https://res.cloudinary.com/dgtybiflg/image/upload/v1749459827/WhatsApp_Image_2025-06-09_at_09.59.17_75301451_mgihfk.jpg" alt="Portrait of Big Dan smiling" loading="lazy" onerror="this.src='https://via.placeholder.com/200?text=Big+Dan';">
+    
+    <p>Omoooooooo my Day one, my bro, my guyyyyy — God bless you so much.</p>
+    <p>You will keep going higher in life, the sky is your limit!</p>
+    <p>God bless you abundantly — He will protect you, uplift you, and be with you every step you take.</p>
+    <p>He will answer your heart desires.</p>
+    <p>His grace will be upon you.</p>
+    <p>His mercies will never stop being upon you.</p>
+    <p>And of course — long life and prosperity my bro!</p>
+
+    <div class="footer">
+      God bless you so so so so so so much ❤️❤️❤️
+    </div>
+  </div>
+</body>
+</html>
